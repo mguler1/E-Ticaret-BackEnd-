@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{7AEDC52D-751E-4FE2-872C-B50CCBD18A27}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E-Ticaret.Domain", "Core\E-Ticaret.Domain\E-Ticaret.Domain.csproj", "{B13BEBFF-BAEC-49AD-B746-69ECC91ED5F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-Ticaret.Application", "Core\E-Ticaret.Application\E-Ticaret.Application.csproj", "{BA43B069-B5CC-4218-A918-4769E5A1337E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{7441E555-DF12-464F-80BB-FE90F14B5E0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-Ticaret.Infrastructure", "Infrastructure\E-Ticaret.Infrastructure\E-Ticaret.Infrastructure.csproj", "{C4B73F23-4947-4183-A287-15DCA32E288B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-TicaretPersistance", "Infrastructure\E-TicaretPersistance\E-TicaretPersistance.csproj", "{8FF87D5E-3E3B-4189-BA18-67E764B5F010}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{BBCC5078-7702-4762-A617-615D567DECA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-Ticaret.Api", "Presentation\E-Ticaret.Api\E-Ticaret.Api.csproj", "{C30B9108-97AA-4559-8553-4DDA3E8363CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B13BEBFF-BAEC-49AD-B746-69ECC91ED5F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B13BEBFF-BAEC-49AD-B746-69ECC91ED5F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B13BEBFF-BAEC-49AD-B746-69ECC91ED5F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B13BEBFF-BAEC-49AD-B746-69ECC91ED5F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA43B069-B5CC-4218-A918-4769E5A1337E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA43B069-B5CC-4218-A918-4769E5A1337E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA43B069-B5CC-4218-A918-4769E5A1337E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA43B069-B5CC-4218-A918-4769E5A1337E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4B73F23-4947-4183-A287-15DCA32E288B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4B73F23-4947-4183-A287-15DCA32E288B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4B73F23-4947-4183-A287-15DCA32E288B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4B73F23-4947-4183-A287-15DCA32E288B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FF87D5E-3E3B-4189-BA18-67E764B5F010}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FF87D5E-3E3B-4189-BA18-67E764B5F010}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FF87D5E-3E3B-4189-BA18-67E764B5F010}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FF87D5E-3E3B-4189-BA18-67E764B5F010}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C30B9108-97AA-4559-8553-4DDA3E8363CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C30B9108-97AA-4559-8553-4DDA3E8363CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C30B9108-97AA-4559-8553-4DDA3E8363CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C30B9108-97AA-4559-8553-4DDA3E8363CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B13BEBFF-BAEC-49AD-B746-69ECC91ED5F7} = {7AEDC52D-751E-4FE2-872C-B50CCBD18A27}
+		{BA43B069-B5CC-4218-A918-4769E5A1337E} = {7AEDC52D-751E-4FE2-872C-B50CCBD18A27}
+		{C4B73F23-4947-4183-A287-15DCA32E288B} = {7441E555-DF12-464F-80BB-FE90F14B5E0E}
+		{8FF87D5E-3E3B-4189-BA18-67E764B5F010} = {7441E555-DF12-464F-80BB-FE90F14B5E0E}
+		{C30B9108-97AA-4559-8553-4DDA3E8363CE} = {BBCC5078-7702-4762-A617-615D567DECA0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F3D2EDF-27B1-40E4-A449-6DF146E9756F}
+	EndGlobalSection
+EndGlobal
