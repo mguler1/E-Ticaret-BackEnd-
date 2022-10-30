@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\E-Ticaret.Application\E-Ticaret.Application.csproj" />
+  </ItemGroup>
+
 </Project>
