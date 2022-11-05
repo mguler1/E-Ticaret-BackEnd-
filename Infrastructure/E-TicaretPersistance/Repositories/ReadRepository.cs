@@ -23,9 +23,8 @@ namespace E_TicaretPersistance.Repositories
 
         public IQueryable<T> GetAll()
            => Table;
-        public Task<T> GetByIdAsync(string id)
-            => Table.FirstOrDefaultAsync(data => data.Id == Guid.Parse(id));
-
+        public async  Task<T> GetByIdAsync(string id)
+            => await Table.FindAsync(id);
         public IQueryable<T> GetWhere(Expression<Func<T, bool>> method)
         => Table.Where(method);
 
