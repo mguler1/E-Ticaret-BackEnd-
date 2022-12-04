@@ -33,7 +33,7 @@ namespace E_TicaretPersistance.Repositories
         {
             var query = Table.AsQueryable();
             if (!tracking)
-                query = Table.AsNoTracking();
+                query = Table.AsNoTracking(); 
             return await Table.FindAsync(id);
         }
 
@@ -52,6 +52,5 @@ namespace E_TicaretPersistance.Repositories
                 query = query.AsNoTracking();
             return await query.FirstOrDefaultAsync(method);
         }
-
     }
 }

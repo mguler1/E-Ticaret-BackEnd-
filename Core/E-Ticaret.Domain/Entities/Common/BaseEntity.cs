@@ -10,5 +10,6 @@ namespace E_Ticaret.Domain.Entities.Common
     {
         public Guid Id { get; set; }
         public DateTime CreatedDate { get; set; }
+        public DateTime UpdateddDate { get; set; }
     }
 }
